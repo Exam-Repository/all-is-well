@@ -22,6 +22,7 @@ plot(z);
 xlabel('sample number');
 ylabel('amplitude');
 title('absolute fft');
+```
 
 # 2-IIR FILTER USING BUTTERWORTH TECHNIQUE:
 ```
@@ -100,6 +101,7 @@ plot(abs(h2));
 xlabel('frequency in hz');
 ylabel('amplitude');
 title('band stop');
+```
 
 # 3-IIR FILTER USING CHEBYSHEV TECHNIQUE
 ```
@@ -155,6 +157,7 @@ w=0:0.01:pi;
 h4=freqz(g,h,w);
 figure(8);
 plot(abs(h4));
+```
 
 # -MULTI-RATE FILTER
 ```
@@ -214,6 +217,7 @@ stem(uolpf);
 xlabel('Sample number');
 ylabel('Amplitude');
 title('UOLPF');
+```
 
 # kaiser
 ```
